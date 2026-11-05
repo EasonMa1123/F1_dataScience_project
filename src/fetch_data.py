@@ -1,7 +1,7 @@
 import os
 import fastf1
 
-fastf1.Cache.enable_cache('.gitignore/data/')
+fastf1.Cache.enable_cache('data/')
 
 
 def load_driver_laps(year: int, grand_prix: str, session_type: str, driver1: str, driver2: str):
